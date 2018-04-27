@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe and Dough | Delivery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/lux/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container"><a class="navbar-brand" href="#"><strong>Joe and Dough</strong></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link text-capitalize active" href="login.html">LOGIN</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-primary" href="contact.html">CONTACT US</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <div class="container">
+            <div class="text-center">
+                <h1>Your Delivery</h1>
+                <form id="form-signin" class="text-left" action="start_delivery.php" method="post">
+					<h4>Delivery Info:</h4>
+					<div class="main-login-form">
+						<div class="login-group">
+							<div class="form-group">
+								<input id="location" class="form-control col-6" name="location" placeholder="Location" type="text">
+							</div>
+							<div class="form-group">
+								<input id="delivtime" class="form-control col-6" name="delivtime" placeholder="Time" type="time">
+							</div>
+							<div class="form-group">
+								<input id="order_limit" class="form-control col-4" name="olimit" placeholder="Order Limit" type="number">
+							</div>
+						</div>
+					</div>
+					By submitting, your delivery status will become active: 
+					<br><br>
+					<input type="submit" id="submit" name="submit" value="Submit">
+				</form>
+				<br><br>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

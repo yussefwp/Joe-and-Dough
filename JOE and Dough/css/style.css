@@ -1,0 +1,49 @@
+body {
+  background-image:url(../../assets/img/home.png);
+}
+
+.container {
+  color:initial;
+}
+
+#promo {
+  text-align:center;
+  padding:40px;
+  background-size:cover;
+}
+
+@media (min-width: 992px) {
+  #promo {
+    padding:20px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius:20px;
+  padding:70px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (min-width: 992px) {
+  #promo .jumbotron {
+    /*padding:20px;*/
+  }
+}
+
+#info {
+  margin-left:auto;
+  font-weight:normal;
+  margin-bottom:auto;
+}
+
+.dark-section {
+  background-color:#f5faff;
+  margin-top:30px;
+}
+
+.text-center {
+  margin-bottom:28px;
+}
+
